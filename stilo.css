@@ -1,0 +1,36 @@
+
+body{
+    background-color: #F2F2F2;
+    margin: 1% 5% 1% 5%;
+  }
+  #tabla{
+    padding-left: 2rem;
+  /*para que la tabla no se desborde, le puse un scroll y la adapte*/ 
+  display:block;
+  overflow: auto;
+  }
+  #formulario{
+    padding-left: 2rem;
+
+  }
+  #menu{
+    background-color: #08A696;
+    font-size: 15px;
+  }
+  .nav-link{
+    color :#fff;
+  }
+  .nav-link.active{
+    color: #000000 !important
+  }
+  .card-text{
+    text-align:justify !important;
+
+  }
+  [class*="col-"] {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  
+  }
+
+ 
